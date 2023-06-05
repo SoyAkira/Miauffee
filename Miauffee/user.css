@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-weight: ;
+}
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: ;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1) s;
+    padding: 2rem 9%;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+}
+.header .as a{
+    color: #4D8B55;
+    padding-left: 30px;
+}
+.navbar img{
+    width: 50px;
+}
+.as a:hover{
+    color: white;
+}
+.ai .ri-cup-fill{
+    color: #4D8B55;
+}
+.ai .ri-cup-fill:hover{
+    color: #f7dfac;
+}
+.header .logo {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.header .logo i {
+    padding-left: .5rem;
+}
+.header .navbar{
+    padding-left: 5.5rem;
+}
+.header .navbar a {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #4D8B55;
+}
+.header .navbar a:hover {
+    color: #ffffff;
+}
+
+.header .btn {
+    margin-top: 0;
+}
+
+#menu-btn {
+    font-size: 3rem;
+    color: #4D8B55;
+    cursor: pointer;
+    display: none;
+}
+/*conteiner*/
+.login-box{
+    width: 320px;
+    height: 420px;
+    top: 300px;
+    left: 47% ;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: -50px;
+}
+.login-box h1{
+    margin: 0;
+    padding-right: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 50px;
+}
+.login-box input{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    width: 405px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Dongle', sans-serif;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 27px;
+    line-height: 20px;
+    color: gray;
+}
+.login-box a:hover{
+    color: black;
+}
+.ri-eye-off-line{
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    left: 40vh;
+    transform: translateY(90%);
+    color: gray;
+    font-size: 24px;
+    cursor: pointer;
+}
+.ri-eye-off-line:hover{
+    color: black;
+}
+.check{
+    margin-left: -200px;
+}
+.check p{
+    margin-left: 200px;
+}
